@@ -1,5 +1,6 @@
 package id.inixindo.firstkotlin
 
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -59,6 +60,7 @@ class ContactActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        super.onBackPressed()
+        // super.onBackPressed()
+        startActivity(Intent(applicationContext, MainActivity::class.java))
     }
 }
