@@ -86,6 +86,10 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(applicationContext, "Setting is clicked", Toast.LENGTH_LONG).show()
                 true
             }
+            R.id.item_products -> {
+                startActivity(Intent(applicationContext, ProductActivity::class.java))
+                true
+            }
             else -> {
                 super.onOptionsItemSelected(item)
             }

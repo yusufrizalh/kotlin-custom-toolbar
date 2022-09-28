@@ -18,5 +18,9 @@
         android:id="@+id/item_contact"
         android:title="Contact"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/item_products"
+        android:title="Products"
+        app:showAsAction="never" />
 
 </menu>
